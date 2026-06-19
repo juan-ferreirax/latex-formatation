@@ -1,0 +1,30 @@
+\listfiles %Para detalhes sobre pacotes no filename.log%
+\documentclass[12pt, a4paper]{article}
+
+% Pacotes essenciais para o ambiente XeLaTeX (Preâmbulo)
+\usepackage[portuguese]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\setcounter{secnumdepth}{0}
+
+% Informações do cabeçalho
+\title{Title Example}
+\author{Name Example}
+\date{\today}
+
+\begin{document}
+
+\maketitle %Monta o cabeçalho baseado no tipo das informações e na classe do documento%
+
+\section{Introdução}
+Arquivo básico para entender a dinâmica do LaTeX. XeLaTeX gerencia o UTF-8 e as fontes nativamente por padrão.
+
+\section{Estrutura de Texto}
+Criando novo parágrafo saltando uma nova linha.
+
+Aplicação de formatações simples no meio do texto de forma direta:
+\begin{itemize}
+    \item Destaca palavras em \textbf{negrito} ou em \textit{itálico}.
+    \item Digitar símbolos especiais usando a barra de escape: C\# ou \$150.
+\end{itemize}
+
+\end{document}
