@@ -9,6 +9,7 @@
 5. Adicionar no arquivo makefile:
 ```
 install:
+    # Pacotes usados na construção do arquivo latex.tex
 	sudo tlmgr install babel babel-portuges geometry keyval ifvtex iftex
 
 build:
